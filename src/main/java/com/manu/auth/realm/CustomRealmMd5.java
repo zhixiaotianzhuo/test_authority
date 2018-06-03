@@ -33,7 +33,7 @@ public class CustomRealmMd5 extends AuthorizingRealm {
 
 
 
-        /*Md5Hash md5Hash = new Md5Hash("111111");
+        Md5Hash md5Hash = new Md5Hash("111111");
         System.out.println("md5加密，不加盐："+md5Hash.toString());
 
         //md5加密，加盐，一次hash
@@ -46,7 +46,7 @@ public class CustomRealmMd5 extends AuthorizingRealm {
 
         //使用simpleHash
         String simpleHash = new SimpleHash("MD5", "11111", "aga23", 1).toString();
-        System.out.println(simpleHash);*/
+        System.out.println(simpleHash);
 
 
 
